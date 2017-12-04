@@ -1,5 +1,4 @@
-// import project from '../App/main.js';
-var project = require('../App/main')
+const app = require('../App')();
 
-project.start(3000);
-console.log('listen on 3000...');
+app.start(3000);
+console.log('listening on 3000');

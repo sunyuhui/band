@@ -1,0 +1,8 @@
+{
+	"apps": [
+		{
+			"name": "band-dev",
+			"script": "./project/main.js"
+		}
+	]
+}
