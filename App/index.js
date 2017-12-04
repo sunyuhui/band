@@ -9,9 +9,7 @@ class APP {
 	}
 	start(port) {
 		let app = this.app;
-		app.use((ctx)=>{
-			ctx.body = 'sunyuhui';
-		})
+		
 		app.listen(port);
 	}
 }
